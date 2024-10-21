@@ -17,7 +17,7 @@ To run the tool locally download the code and follow the steps below:
 
 - create ".env" file to store all the environment variables for Flask, Huggingface, OpenAI & Langchain. Copy this code into the ".env" file-
     - `FLASK_APP = app`
-    - `FLASK_RUN_PORT = 8080`
+    - `FLASK_RUN_PORT = 5000`
     - `FLASK_DEBUG = True`
     - `HF_TOKEN = ""`
     - `OPENAI_API_KEY = ""`
@@ -25,5 +25,7 @@ To run the tool locally download the code and follow the steps below:
 
 - To run the app locally use- `flask run` 
 
-- Open a browser and go to - http://localhost:8080/
+- Open a browser and go to - [http://localhost:8080/](http://127.0.0.1:5000)
+
+- Youtube video link: https://youtu.be/AV7twAPSVTk   
 ---
