@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{%block content%}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <br><br>
+      <h2 class="text-center display-3">Viswak's Project Space</h2>
+      <br><br>
+      <p>In this space, you'll find a series of progressive classroom assignments focused on creating interactive interfaces that leverage various AI models. The vision of my project is to make creative expression and collaboration more accessible to BLV users. My goal is to provide agency and opportunities for co-creation across different abilities, by creating a digital canvas for creating and modifying artwork.
+        So far, I have explored models from Hugging Face, OpenAI, and LangChain, applying each to develop dynamic and responsive user experiences.</p>
+        <br><br>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+
+    <div class="col-4">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Milestone 1: Initial Development and AI Integration</h2>
+          <p>Begin your journey into text-to-image generation and spatially aware image descriptions with Milestone 1. This phase is dedicated to establishing the foundational technology stack and integrating advanced AI models to generate rich, descriptive, spatially, and contextually aware image outputs.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Text to Image:</strong> Utilize Hugging Face’s model to generate images from user prompt.</li>
+            <li class="list-group-item"class="list-group-item"><strong>Image Description:</strong> Employ OpenAI's GPT-4o mini to craft descriptive alternative text based on the generated image.</li>
+            <li class="list-group-item"><strong>Interactive Display:</strong> The image descriptions are dynamically presented on a P5.js canvas with accompanying narration via the P5.js speech library.</li>
+            <li class="list-group-item"><strong>Framework:</strong> Built using Flask and styled with Bootstrap for a robust and responsive user experience.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Milestone 2: Advanced Features and Enhanced Interactivity</h2>
+          <p>Milestone 2 enhances image descriptions by incorporating the LangChain library to infuse emotional depth into the output. This phase enables the selection of various emotions, allowing users to generate contextually rich alt text that resonates with the chosen emotional tone, making image descriptions more immersive and meaningful.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Emotion Selection:</strong> Users can choose from six emotions, tailoring the image description to their preferences.</li>
+            <li class="list-group-item"><strong>Prompt Templates and RAG:</strong> Enhance the quality of image descriptions by using structured prompts and contextually enriched content through Retrieval-Augmented Generation (RAG).</li>
+            <li class="list-group-item"><strong>Customized window:</strong> Different background colors match the selected emotions.</li>
+      
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+{%endblock%}
