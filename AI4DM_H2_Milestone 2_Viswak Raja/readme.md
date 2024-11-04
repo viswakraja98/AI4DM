@@ -26,4 +26,6 @@ To run the tool locally download the code and follow the steps below:
 - To run the app locally use- `flask run` 
 
 - Open a browser and go to - http://localhost:5000/
+
+- Youtuve demo link: https://youtu.be/ztIeeX1FPu8  
 ---
